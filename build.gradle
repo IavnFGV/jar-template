@@ -2,17 +2,13 @@ plugins {
     id "java"
 }
 
-group = "com.example"
+group = "io.drozda"
 version = "1.0.0"
 
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
     }
-}
-
-tasks.withType(JavaCompile).configureEach {
-    options.encoding = "UTF-8"
 }
 
 repositories {
@@ -33,11 +29,10 @@ jar {
 
     manifest {
         attributes(
-                "Main-Class": "Main"
+                "Main-Class": "io.drozda.coding.Main"
         )
     }
 
-    // Required by the task: jar must contain source code.
     from("src/main/java") {
         into("source")
         include("**/*.java")
