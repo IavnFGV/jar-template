@@ -1,0 +1,12 @@
+{
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "java.import.gradle.enabled": true,
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-17",
+      "path": "/usr/lib/jvm/msopenjdk-current"
+    }
+  ],
+  "java.format.settings.url": "",
+  "files.encoding": "utf8"
+}

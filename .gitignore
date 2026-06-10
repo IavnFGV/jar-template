@@ -1,0 +1,46 @@
+# Build output
+/build/
+/out/
+
+# Gradle
+/.gradle/
+/gradle/wrapper/dists/
+
+# Eclipse, IntelliJ IDEA, NetBeans
+/.idea/
+*.iml
+*.ipr
+*.iws
+/.classpath
+/.project
+/.settings/
+
+# VS Code
+.vscode/
+!.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# OS files
+.DS_Store
+Thumbs.db
+Icon?
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+*~
+
+# Logs
+npm-debug.log*
+*.log
+
+# Misc
+*.class
+*.jar
+*.war
+*.ear
+
+# Gradle wrapper jar is committed for reproducible builds
+!/gradle/wrapper/gradle-wrapper.jar

@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "vscjava.vscode-java-pack",
+    "vscjava.vscode-java-dependency",
+    "vscjava.vscode-maven",
+    "vscjava.vscode-java-test"
+  ]
+}
